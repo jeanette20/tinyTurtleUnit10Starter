@@ -27,7 +27,7 @@ function TinyTurtle(canvas, width, height) {
     if (rotation < 0) rotation += 360;
   };
 
-  self.penStyle = 'black';
+  self.penStyle = 'blue';
   self.penWidth = 1;
   self.penUp = function() { isPenDown = false; return self; };
   self.penDown = function() { isPenDown = true; return self; };
